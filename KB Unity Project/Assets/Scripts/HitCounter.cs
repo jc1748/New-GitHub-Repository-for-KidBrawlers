@@ -2,48 +2,42 @@ using UnityEngine;
 
 public class HitCounter : MonoBehaviour
 {
-    public int maxHealth = 5; // hits until destroyed
-    private int currentHealth;
+    public int maxHits = 5;
+    private int currentHits = 0;
 
-    public Transform healthBar; // assign the HealthBar child here
+    [Header("Health Bar")]
+    public Transform healthBar;   // assign a child object (sprite) in Inspector
+    private Vector3 originalScale;
 
-    private Vector3 originalHealthScale;
-
-    void Start()
+    private void Start()
     {
-        currentHealth = maxHealth;
-
         if (healthBar != null)
         {
-            originalHealthScale = healthBar.localScale;
+            originalScale = healthBar.localScale;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Only count objects with Projectile script
-        Projectile projectile = other.GetComponent<Projectile>();
-        if (projectile != null)
+        if (collision.CompareTag("Projectile"))
         {
-            currentHealth--;
-            Debug.Log("Box hit! Remaining health: " + currentHealth);
+            Destroy(collision.gameObject); // remove projectile
+            currentHits++;
 
-            Destroy(other.gameObject); // destroy the projectile
+            Debug.Log("Box hit! Current hits: " + currentHits);
 
             // Update health bar
             if (healthBar != null)
             {
-                float healthPercent = (float)currentHealth / maxHealth;
-                healthBar.localScale = new Vector3(originalHealthScale.x * healthPercent,
-                                                   originalHealthScale.y,
-                                                   originalHealthScale.z);
+                float healthPercent = Mathf.Clamp01(1f - ((float)currentHits / maxHits));
+                healthBar.localScale = new Vector3(originalScale.x * healthPercent,
+                                                   originalScale.y,
+                                                   originalScale.z);
             }
 
-            // Destroy the box if health is zero
-            if (currentHealth <= 0)
+            if (currentHits >= maxHits)
             {
-                Debug.Log("Box destroyed!");
-                Destroy(gameObject);
+                Destroy(gameObject); // destroy box
             }
         }
     }
