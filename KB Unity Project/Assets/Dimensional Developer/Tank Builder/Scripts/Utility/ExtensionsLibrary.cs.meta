@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dbf70d7c8339993408a9b5ab0a7801fa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178991
+  packageName: 2D Tank Builder
+  packageVersion: 1.0.2
+  assetPath: Assets/Dimensional Developer/Tank Builder/Scripts/Utility/ExtensionsLibrary.cs
+  uploadId: 715335

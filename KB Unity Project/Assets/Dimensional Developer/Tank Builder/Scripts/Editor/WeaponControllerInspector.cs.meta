@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 01d5103f8da74b9ba28e13974dcfb80a
+timeCreated: 1597760331
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178991
+  packageName: 2D Tank Builder
+  packageVersion: 1.0.2
+  assetPath: Assets/Dimensional Developer/Tank Builder/Scripts/Editor/WeaponControllerInspector.cs
+  uploadId: 715335

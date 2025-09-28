@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1dfc3f7a85dc699419697dd882b8e113
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178991
+  packageName: 2D Tank Builder
+  packageVersion: 1.0.2
+  assetPath: Assets/Dimensional Developer/Tank Builder/Demo/Prefabs/Camera.prefab
+  uploadId: 715335

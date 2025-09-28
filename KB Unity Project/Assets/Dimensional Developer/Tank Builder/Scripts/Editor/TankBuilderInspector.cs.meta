@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d127e324373c4ee18303619df04987eb
+timeCreated: 1596460167
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178991
+  packageName: 2D Tank Builder
+  packageVersion: 1.0.2
+  assetPath: Assets/Dimensional Developer/Tank Builder/Scripts/Editor/TankBuilderInspector.cs
+  uploadId: 715335

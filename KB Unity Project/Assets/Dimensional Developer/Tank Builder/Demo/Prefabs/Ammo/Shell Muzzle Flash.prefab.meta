@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8deb1def3de25b04b8371070fbb372fe
+timeCreated: 1499633922
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178991
+  packageName: 2D Tank Builder
+  packageVersion: 1.0.2
+  assetPath: Assets/Dimensional Developer/Tank Builder/Demo/Prefabs/Ammo/Shell Muzzle
+    Flash.prefab
+  uploadId: 715335

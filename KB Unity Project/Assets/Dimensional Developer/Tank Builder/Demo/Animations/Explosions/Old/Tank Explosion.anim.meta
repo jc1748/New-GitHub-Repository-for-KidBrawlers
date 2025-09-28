@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 85852d0f38d24e24aa618347e4fa1c9e
+timeCreated: 1480273474
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178991
+  packageName: 2D Tank Builder
+  packageVersion: 1.0.2
+  assetPath: Assets/Dimensional Developer/Tank Builder/Demo/Animations/Explosions/Old/Tank
+    Explosion.anim
+  uploadId: 715335
