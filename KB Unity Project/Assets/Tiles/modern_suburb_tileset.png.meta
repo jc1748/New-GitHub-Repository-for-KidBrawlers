@@ -160,15 +160,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: modern_suburb_tileset_0
+      name: road straight
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 529
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 305
+        y: 65
+        width: 14
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,12 +185,12 @@ TextureImporter:
       name: modern_suburb_tileset_1
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 115
         width: 66
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,7 +212,7 @@ TextureImporter:
         width: 49
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,7 +234,7 @@ TextureImporter:
         width: 14
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,7 +256,7 @@ TextureImporter:
         width: 14
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,7 +278,7 @@ TextureImporter:
         width: 14
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,7 +300,7 @@ TextureImporter:
         width: 14
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -322,7 +322,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,15 +336,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modern_suburb_tileset_8
+      name: trash can
       rect:
         serializedVersion: 2
-        x: 608
+        x: 496
         y: 79
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,7 +366,7 @@ TextureImporter:
         width: 40
         height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -388,7 +388,7 @@ TextureImporter:
         width: 46
         height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -410,7 +410,7 @@ TextureImporter:
         width: 18
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -432,7 +432,7 @@ TextureImporter:
         width: 14
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -454,7 +454,7 @@ TextureImporter:
         width: 14
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -476,7 +476,7 @@ TextureImporter:
         width: 13
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -498,7 +498,7 @@ TextureImporter:
         width: 8
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -520,7 +520,7 @@ TextureImporter:
         width: 8
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -542,7 +542,7 @@ TextureImporter:
         width: 8
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -564,7 +564,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -586,7 +586,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -608,7 +608,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -621,11 +621,187 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 80
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d971cf9e0f0ce04792bae66ebf8b9b9
+      internalID: 2127487232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire hydrant
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 79
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497b016a614240642a23ee2b50327a0d
+      internalID: -295413459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 63
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ec248961887f04883b64e5be2032fc
+      internalID: -446646650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turned road
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e063ed910b9e7b143899b22d276a835c
+      internalID: 1064669595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5630877b73f0be3469f4163bf1ea6b92
+      internalID: -1772210825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk right corner
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 65
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969272ea9cf1600479f34d214f68f9cd
+      internalID: -660297781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk left corner
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 65
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3591174257568594bab42ad5cb8dd143
+      internalID: -123481471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewalk normal
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a64bc29b3f0c5544855192e6fea24ed
+      internalID: -821710244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eb84d23a2a8f07c4bb97f17091f24f6b
     internalID: 0
     vertices: []
     indices: 
@@ -635,7 +811,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      modern_suburb_tileset_0: -2891150701142980081
+      Sidewalk left corner: -123481471
+      Sidewalk right corner: -660297781
+      fire hydrant: -295413459
+      ground: -1772210825
+      modern_suburb_tileset_0: 2127487232
       modern_suburb_tileset_1: -2980709871500241074
       modern_suburb_tileset_10: 238787213322803028
       modern_suburb_tileset_11: -8677257987514117726
@@ -649,13 +829,17 @@ TextureImporter:
       modern_suburb_tileset_19: -1612317726730237993
       modern_suburb_tileset_2: -2328935967925853803
       modern_suburb_tileset_20: -5615814237141362277
+      modern_suburb_tileset_21: -446646650
       modern_suburb_tileset_3: -250438610340760871
       modern_suburb_tileset_4: 5110127630997948573
       modern_suburb_tileset_5: -8951866853702742012
       modern_suburb_tileset_6: -5708159431780392111
       modern_suburb_tileset_7: -2475546276416118504
-      modern_suburb_tileset_8: 5355634430119069882
       modern_suburb_tileset_9: 8184668858937603239
+      road straight: -2891150701142980081
+      sidewalk normal: -821710244
+      trash can: 5355634430119069882
+      turned road: 1064669595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
