@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 9f2947d140121124ca68d7ea60d0da1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2891150701142980081
+    second: modern_suburb_tileset_0
+  - first:
+      213: -2980709871500241074
+    second: modern_suburb_tileset_1
+  - first:
+      213: -2328935967925853803
+    second: modern_suburb_tileset_2
+  - first:
+      213: -250438610340760871
+    second: modern_suburb_tileset_3
+  - first:
+      213: 5110127630997948573
+    second: modern_suburb_tileset_4
+  - first:
+      213: -8951866853702742012
+    second: modern_suburb_tileset_5
+  - first:
+      213: -5708159431780392111
+    second: modern_suburb_tileset_6
+  - first:
+      213: -2475546276416118504
+    second: modern_suburb_tileset_7
+  - first:
+      213: 5355634430119069882
+    second: modern_suburb_tileset_8
+  - first:
+      213: 8184668858937603239
+    second: modern_suburb_tileset_9
+  - first:
+      213: 238787213322803028
+    second: modern_suburb_tileset_10
+  - first:
+      213: -8677257987514117726
+    second: modern_suburb_tileset_11
+  - first:
+      213: -7770514328524697947
+    second: modern_suburb_tileset_12
+  - first:
+      213: -526043527023507468
+    second: modern_suburb_tileset_13
+  - first:
+      213: -7685686436647841432
+    second: modern_suburb_tileset_14
+  - first:
+      213: -1835799170677873762
+    second: modern_suburb_tileset_15
+  - first:
+      213: -2542198249167992483
+    second: modern_suburb_tileset_16
+  - first:
+      213: -6634586885845731131
+    second: modern_suburb_tileset_17
+  - first:
+      213: 8155769725788545650
+    second: modern_suburb_tileset_18
+  - first:
+      213: -1612317726730237993
+    second: modern_suburb_tileset_19
+  - first:
+      213: -5615814237141362277
+    second: modern_suburb_tileset_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: modern_suburb_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 529
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a404a51c190e7d0800000000000000
+      internalID: -2891150701142980081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 115
+        width: 66
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e475ab21a2462a6d0800000000000000
+      internalID: -2980709871500241074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 115
+        width: 49
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591262f8315fdafd0800000000000000
+      internalID: -2328935967925853803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 79
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2b8982963468cf0800000000000000
+      internalID: -250438610340760871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 79
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d988a8a7102dae640800000000000000
+      internalID: 5110127630997948573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 79
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400547c868494c380800000000000000
+      internalID: -8951866853702742012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 79
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1532f6b6d3b88c0b0800000000000000
+      internalID: -5708159431780392111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 79
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8112d2117c715add0800000000000000
+      internalID: -2475546276416118504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 79
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8491a8329035a40800000000000000
+      internalID: 5355634430119069882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a47d2586f8c59170800000000000000
+      internalID: 8184668858937603239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457d20394b7505300800000000000000
+      internalID: 238787213322803028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 31
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1dccd95df249780800000000000000
+      internalID: -8677257987514117726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 47
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aec33e5366992490800000000000000
+      internalID: -7770514328524697947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 47
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7ce53033e13b8f0800000000000000
+      internalID: -526043527023507468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 47
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861519808e4f65590800000000000000
+      internalID: -7685686436647841432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93e9c8716ee586e0800000000000000
+      internalID: -1835799170677873762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59c8b9592c48bcd0800000000000000
+      internalID: -2542198249167992483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c833bdf0663de3a0800000000000000
+      internalID: -6634586885845731131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 15
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272e28fba5d1f2170800000000000000
+      internalID: 8155769725788545650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 15
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7cd29e195ef99e0800000000000000
+      internalID: -1612317726730237993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_suburb_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 15
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b999b9684be9012b0800000000000000
+      internalID: -5615814237141362277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      modern_suburb_tileset_0: -2891150701142980081
+      modern_suburb_tileset_1: -2980709871500241074
+      modern_suburb_tileset_10: 238787213322803028
+      modern_suburb_tileset_11: -8677257987514117726
+      modern_suburb_tileset_12: -7770514328524697947
+      modern_suburb_tileset_13: -526043527023507468
+      modern_suburb_tileset_14: -7685686436647841432
+      modern_suburb_tileset_15: -1835799170677873762
+      modern_suburb_tileset_16: -2542198249167992483
+      modern_suburb_tileset_17: -6634586885845731131
+      modern_suburb_tileset_18: 8155769725788545650
+      modern_suburb_tileset_19: -1612317726730237993
+      modern_suburb_tileset_2: -2328935967925853803
+      modern_suburb_tileset_20: -5615814237141362277
+      modern_suburb_tileset_3: -250438610340760871
+      modern_suburb_tileset_4: 5110127630997948573
+      modern_suburb_tileset_5: -8951866853702742012
+      modern_suburb_tileset_6: -5708159431780392111
+      modern_suburb_tileset_7: -2475546276416118504
+      modern_suburb_tileset_8: 5355634430119069882
+      modern_suburb_tileset_9: 8184668858937603239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
