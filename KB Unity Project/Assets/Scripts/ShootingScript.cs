@@ -32,5 +32,14 @@ public class ShootingScript : MonoBehaviour
         {
             rb.linearVelocity = shootDir * projectileSpeed;
         }
+
+        //Prevent bullet from colliding with player
+        Collider2D playerCol = GetComponent<Collider2D>();
+        Collider2D projCol = proj.GetComponent<Collider2D>();
+        if (playerCol != null && projCol != null) 
+        {
+            Physics2D.IgnoreCollision(projCol, playerCol);
+        }
+        
     }
 }

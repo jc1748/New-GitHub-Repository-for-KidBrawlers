@@ -36,6 +36,14 @@ public class PlayerController : MonoBehaviour
         moveInput.y = Input.GetAxisRaw("Vertical");
         //incase of any diagonal movement
         moveInput = moveInput.normalized;
+        if (moveInput.x > 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);//face right
+        }
+        else if(moveInput.x < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);//face left
+        }
 
         // Update animator for movement
         if (animator != null)
@@ -66,6 +74,7 @@ public class PlayerController : MonoBehaviour
         {
             cooldownTimer -= Time.deltaTime;
         }
+
     }
 
     void FixedUpdate()
