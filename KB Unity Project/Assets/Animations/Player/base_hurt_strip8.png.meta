@@ -1,34 +1,31 @@
 fileFormatVersion: 2
-guid: fe56fc05b3226c54ab78e56d7791f0cc
+guid: 98e31c392e0675b489527323a9c1031a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8091321643688609963
-    second: base_idle_strip9_0
+      213: -3726000116565803230
+    second: base_hurt_strip8_0
   - first:
-      213: 6711590467529672262
-    second: base_idle_strip9_1
+      213: -4287594267617218526
+    second: base_hurt_strip8_1
   - first:
-      213: -8690178428761904197
-    second: base_idle_strip9_2
+      213: 7441710285289572212
+    second: base_hurt_strip8_2
   - first:
-      213: 2203037612859406267
-    second: base_idle_strip9_3
+      213: 2825124116396068294
+    second: base_hurt_strip8_3
   - first:
-      213: -6826285529842234056
-    second: base_idle_strip9_4
+      213: -6537359614323329720
+    second: base_hurt_strip8_4
   - first:
-      213: -3491692646383869254
-    second: base_idle_strip9_5
+      213: 1158529260092950253
+    second: base_hurt_strip8_5
   - first:
-      213: 8052179660830632159
-    second: base_idle_strip9_6
+      213: -1846877198784538223
+    second: base_hurt_strip8_6
   - first:
-      213: 2031753151691111046
-    second: base_idle_strip9_7
-  - first:
-      213: 1727022864612719175
-    second: base_idle_strip9_8
+      213: 5881968259553597289
+    second: base_hurt_strip8_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base_idle_strip9_0
+      name: base_hurt_strip8_0
       rect:
         serializedVersion: 2
         x: 42
@@ -139,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 557b280b5d9d5bf80800000000000000
-      internalID: -8091321643688609963
+      spriteID: 22ff70b92a69a4cc0800000000000000
+      internalID: -3726000116565803230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_1
+      name: base_hurt_strip8_1
       rect:
         serializedVersion: 2
-        x: 138
+        x: 135
         y: 24
-        width: 13
-        height: 18
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 646010f78fb542d50800000000000000
-      internalID: 6711590467529672262
+      spriteID: 220bca1fab76f74c0800000000000000
+      internalID: -4287594267617218526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_2
+      name: base_hurt_strip8_2
       rect:
         serializedVersion: 2
-        x: 234
+        x: 232
         y: 24
-        width: 13
-        height: 18
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbb62e6f2c8466780800000000000000
-      internalID: -8690178428761904197
+      spriteID: 4774e0c9314464760800000000000000
+      internalID: 7441710285289572212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_3
+      name: base_hurt_strip8_3
       rect:
         serializedVersion: 2
-        x: 330
+        x: 328
         y: 24
-        width: 14
-        height: 17
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,18 +202,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb73f456903c29e10800000000000000
-      internalID: 2203037612859406267
+      spriteID: 6cd4d2c6a6bd43720800000000000000
+      internalID: 2825124116396068294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_4
+      name: base_hurt_strip8_4
       rect:
         serializedVersion: 2
         x: 426
         y: 24
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845f5433112a645a0800000000000000
+      internalID: -6537359614323329720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_hurt_strip8_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 24
         width: 14
         height: 17
       alignment: 0
@@ -227,42 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83d4d525a792441a0800000000000000
-      internalID: -6826285529842234056
+      spriteID: de68cb1593ce31010800000000000000
+      internalID: 1158529260092950253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_5
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 24
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab22273b9040b8fc0800000000000000
-      internalID: -3491692646383869254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: base_idle_strip9_6
+      name: base_hurt_strip8_6
       rect:
         serializedVersion: 2
         x: 618
         y: 24
-        width: 13
-        height: 17
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,41 +268,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd86f6f3db61fbf60800000000000000
-      internalID: 8052179660830632159
+      spriteID: 199ddae09f29e56e0800000000000000
+      internalID: -1846877198784538223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_7
+      name: base_hurt_strip8_7
       rect:
         serializedVersion: 2
         x: 714
         y: 24
         width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68a34dd0abc323c10800000000000000
-      internalID: 2031753151691111046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: base_idle_strip9_8
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 24
-        width: 13
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -315,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74af73c252e97f710800000000000000
-      internalID: 1727022864612719175
+      spriteID: 96790d2d7f2f0a150800000000000000
+      internalID: 5881968259553597289
       vertices: []
       indices: 
       edges: []
@@ -335,15 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      base_idle_strip9_0: -8091321643688609963
-      base_idle_strip9_1: 6711590467529672262
-      base_idle_strip9_2: -8690178428761904197
-      base_idle_strip9_3: 2203037612859406267
-      base_idle_strip9_4: -6826285529842234056
-      base_idle_strip9_5: -3491692646383869254
-      base_idle_strip9_6: 8052179660830632159
-      base_idle_strip9_7: 2031753151691111046
-      base_idle_strip9_8: 1727022864612719175
+      base_hurt_strip8_0: -3726000116565803230
+      base_hurt_strip8_1: -4287594267617218526
+      base_hurt_strip8_2: 7441710285289572212
+      base_hurt_strip8_3: 2825124116396068294
+      base_hurt_strip8_4: -6537359614323329720
+      base_hurt_strip8_5: 1158529260092950253
+      base_hurt_strip8_6: -1846877198784538223
+      base_hurt_strip8_7: 5881968259553597289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

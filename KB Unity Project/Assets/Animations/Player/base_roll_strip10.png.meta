@@ -1,31 +1,37 @@
 fileFormatVersion: 2
-guid: 386be00f8b359dd4a81b468033bbedd7
+guid: 02c8a07e2ec23fa4c86db13dc196f6dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3726000116565803230
-    second: base_hurt_strip8_0
+      213: -6186038201042990286
+    second: base_roll_strip10_0
   - first:
-      213: -4287594267617218526
-    second: base_hurt_strip8_1
+      213: 8182832070407239266
+    second: base_roll_strip10_1
   - first:
-      213: 7441710285289572212
-    second: base_hurt_strip8_2
+      213: 8154843363093413248
+    second: base_roll_strip10_2
   - first:
-      213: 2825124116396068294
-    second: base_hurt_strip8_3
+      213: 6205028601131157402
+    second: base_roll_strip10_3
   - first:
-      213: -6537359614323329720
-    second: base_hurt_strip8_4
+      213: -6570595446944903160
+    second: base_roll_strip10_4
   - first:
-      213: 1158529260092950253
-    second: base_hurt_strip8_5
+      213: 2535153471880090497
+    second: base_roll_strip10_5
   - first:
-      213: -1846877198784538223
-    second: base_hurt_strip8_6
+      213: -1339830546855436765
+    second: base_roll_strip10_6
   - first:
-      213: 5881968259553597289
-    second: base_hurt_strip8_7
+      213: 4408092889203253716
+    second: base_roll_strip10_7
+  - first:
+      213: 1210735215153094283
+    second: base_roll_strip10_8
+  - first:
+      213: -5607007952868910695
+    second: base_roll_strip10_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base_hurt_strip8_0
+      name: base_roll_strip10_0
       rect:
         serializedVersion: 2
         x: 42
@@ -136,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22ff70b92a69a4cc0800000000000000
-      internalID: -3726000116565803230
+      spriteID: 23b06dbf707c62aa0800000000000000
+      internalID: -6186038201042990286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_hurt_strip8_1
+      name: base_roll_strip10_1
       rect:
         serializedVersion: 2
-        x: 135
+        x: 140
         y: 24
-        width: 16
-        height: 19
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 220bca1fab76f74c0800000000000000
-      internalID: -4287594267617218526
+      spriteID: 2663c4dd9624f8170800000000000000
+      internalID: 8182832070407239266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_hurt_strip8_2
+      name: base_roll_strip10_2
       rect:
         serializedVersion: 2
         x: 232
         y: 24
-        width: 16
-        height: 19
+        width: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4774e0c9314464760800000000000000
-      internalID: 7441710285289572212
+      spriteID: 08d722025d2db2170800000000000000
+      internalID: 8154843363093413248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_hurt_strip8_3
+      name: base_roll_strip10_3
       rect:
         serializedVersion: 2
         x: 328
         y: 24
-        width: 16
-        height: 19
+        width: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cd4d2c6a6bd43720800000000000000
-      internalID: 2825124116396068294
+      spriteID: a97cf8713a0bc1650800000000000000
+      internalID: 6205028601131157402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_hurt_strip8_4
+      name: base_roll_strip10_4
       rect:
         serializedVersion: 2
-        x: 426
+        x: 424
         y: 24
-        width: 15
-        height: 18
+        width: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,17 +230,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 845f5433112a645a0800000000000000
-      internalID: -6537359614323329720
+      spriteID: 800dc06e04e80d4a0800000000000000
+      internalID: -6570595446944903160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_hurt_strip8_5
+      name: base_roll_strip10_5
       rect:
         serializedVersion: 2
-        x: 522
+        x: 520
+        y: 24
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183d28e96acae2320800000000000000
+      internalID: 2535153471880090497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_roll_strip10_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 24
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ed6736737f76de0800000000000000
+      internalID: -1339830546855436765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_roll_strip10_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 24
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1a2eda021bc2d30800000000000000
+      internalID: 4408092889203253716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_roll_strip10_8
+      rect:
+        serializedVersion: 2
+        x: 810
         y: 24
         width: 14
         height: 17
@@ -246,39 +318,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de68cb1593ce31010800000000000000
-      internalID: 1158529260092950253
+      spriteID: b8e914073456dc010800000000000000
+      internalID: 1210735215153094283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_hurt_strip8_6
+      name: base_roll_strip10_9
       rect:
         serializedVersion: 2
-        x: 618
-        y: 24
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 199ddae09f29e56e0800000000000000
-      internalID: -1846877198784538223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: base_hurt_strip8_7
-      rect:
-        serializedVersion: 2
-        x: 714
+        x: 906
         y: 24
         width: 13
         height: 18
@@ -290,8 +340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96790d2d7f2f0a150800000000000000
-      internalID: 5881968259553597289
+      spriteID: 999557c59f7ef22b0800000000000000
+      internalID: -5607007952868910695
       vertices: []
       indices: 
       edges: []
@@ -310,14 +360,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      base_hurt_strip8_0: -3726000116565803230
-      base_hurt_strip8_1: -4287594267617218526
-      base_hurt_strip8_2: 7441710285289572212
-      base_hurt_strip8_3: 2825124116396068294
-      base_hurt_strip8_4: -6537359614323329720
-      base_hurt_strip8_5: 1158529260092950253
-      base_hurt_strip8_6: -1846877198784538223
-      base_hurt_strip8_7: 5881968259553597289
+      base_roll_strip10_0: -6186038201042990286
+      base_roll_strip10_1: 8182832070407239266
+      base_roll_strip10_2: 8154843363093413248
+      base_roll_strip10_3: 6205028601131157402
+      base_roll_strip10_4: -6570595446944903160
+      base_roll_strip10_5: 2535153471880090497
+      base_roll_strip10_6: -1339830546855436765
+      base_roll_strip10_7: 4408092889203253716
+      base_roll_strip10_8: 1210735215153094283
+      base_roll_strip10_9: -5607007952868910695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

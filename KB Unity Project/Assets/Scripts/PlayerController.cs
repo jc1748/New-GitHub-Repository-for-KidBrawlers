@@ -29,6 +29,11 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("MoveX", moveInput.x);
             animator.SetFloat("MoveY", moveInput.y);
             animator.SetFloat("Speed", moveInput.sqrMagnitude);
+            animator.SetTrigger("Rolling");
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animator.SetTrigger("Rolling");
         }
     }
 

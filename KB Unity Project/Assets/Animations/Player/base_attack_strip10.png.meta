@@ -1,46 +1,49 @@
 fileFormatVersion: 2
-guid: c4675880557a29847b0d2fbca6882dca
+guid: e4d6f69cfa21670488259589d760db83
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5107520152641879215
-    second: base_death_strip13_0
+      213: 2037729144460287187
+    second: base_attack_strip10_0
   - first:
-      213: -3675567505963302410
-    second: base_death_strip13_1
+      213: -5921131596595627069
+    second: base_attack_strip10_1
   - first:
-      213: -8995870200806214168
-    second: base_death_strip13_2
+      213: -4545706396013278618
+    second: base_attack_strip10_2
   - first:
-      213: -5837101090135288715
-    second: base_death_strip13_3
+      213: 3339717073172378955
+    second: base_attack_strip10_3
   - first:
-      213: -1044972197882769428
-    second: base_death_strip13_4
+      213: 8536789334769003231
+    second: base_attack_strip10_4
   - first:
-      213: -1113903011004895982
-    second: base_death_strip13_5
+      213: -7739973837865852884
+    second: base_attack_strip10_5
   - first:
-      213: -2562161471375446480
-    second: base_death_strip13_6
+      213: 6875997019405343397
+    second: base_attack_strip10_6
   - first:
-      213: 1109749304658561732
-    second: base_death_strip13_7
+      213: -2390471166699988579
+    second: base_attack_strip10_7
   - first:
-      213: -2657138117357703565
-    second: base_death_strip13_8
+      213: 1702722092792225050
+    second: base_attack_strip10_8
   - first:
-      213: -7744790746168438038
-    second: base_death_strip13_9
+      213: -4475158334380982692
+    second: base_attack_strip10_9
   - first:
-      213: -5768663865002880409
-    second: base_death_strip13_10
+      213: -1117539139757975873
+    second: base_attack_strip10_10
   - first:
-      213: -2819444849823185547
-    second: base_death_strip13_11
+      213: 556652638709390086
+    second: base_attack_strip10_11
   - first:
-      213: -2418362290638837395
-    second: base_death_strip13_12
+      213: 1449619189585592861
+    second: base_attack_strip10_12
+  - first:
+      213: 5560936033222639860
+    second: base_attack_strip10_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,10 +139,32 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base_death_strip13_0
+      name: base_attack_strip10_0
       rect:
         serializedVersion: 2
-        x: 41
+        x: 42
+        y: 24
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc140c4cd7774c10800000000000000
+      internalID: 2037729144460287187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_attack_strip10_1
+      rect:
+        serializedVersion: 2
+        x: 137
         y: 24
         width: 15
         height: 18
@@ -151,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 153c1a26b717e19b0800000000000000
-      internalID: -5107520152641879215
+      spriteID: 3cb73943f2ae3dda0800000000000000
+      internalID: -5921131596595627069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_1
+      name: base_attack_strip10_2
       rect:
         serializedVersion: 2
-        x: 138
+        x: 232
         y: 24
-        width: 13
-        height: 18
+        width: 15
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,17 +198,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f1c61bc3d2cdfcc0800000000000000
-      internalID: -3675567505963302410
+      spriteID: 66a4864fd186ae0c0800000000000000
+      internalID: -4545706396013278618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_2
+      name: base_attack_strip10_3
       rect:
         serializedVersion: 2
-        x: 233
+        x: 327
+        y: 24
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b453fb4cbfe095e20800000000000000
+      internalID: 3339717073172378955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_attack_strip10_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 34
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaef3d8ba4c87670800000000000000
+      internalID: 8536789334769003231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_attack_strip10_5
+      rect:
+        serializedVersion: 2
+        x: 426
         y: 24
         width: 15
         height: 18
@@ -195,20 +264,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e57c6be6bf382380800000000000000
-      internalID: -8995870200806214168
+      spriteID: c2060377dc6169490800000000000000
+      internalID: -7739973837865852884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_3
+      name: base_attack_strip10_6
       rect:
         serializedVersion: 2
-        x: 330
+        x: 521
+        y: 25
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aadc4acbd27c6f50800000000000000
+      internalID: 6875997019405343397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_attack_strip10_7
+      rect:
+        serializedVersion: 2
+        x: 521
         y: 24
-        width: 13
-        height: 18
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 574d07c1c737efea0800000000000000
-      internalID: -5837101090135288715
+      spriteID: d99980f932753ded0800000000000000
+      internalID: -2390471166699988579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_4
+      name: base_attack_strip10_8
       rect:
         serializedVersion: 2
-        x: 425
+        x: 617
         y: 24
-        width: 15
-        height: 18
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +330,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cefc90192538f71f0800000000000000
-      internalID: -1044972197882769428
+      spriteID: a1d1714d8b841a710800000000000000
+      internalID: 1702722092792225050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_5
+      name: base_attack_strip10_9
       rect:
         serializedVersion: 2
-        x: 522
-        y: 32
-        width: 13
-        height: 13
+        x: 640
+        y: 25
+        width: 20
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21da0dafc1f9a80f0800000000000000
-      internalID: -1113903011004895982
+      spriteID: c5eb79d843b05e1c0800000000000000
+      internalID: -4475158334380982692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_6
+      name: base_attack_strip10_10
       rect:
         serializedVersion: 2
-        x: 618
-        y: 33
-        width: 13
-        height: 12
+        x: 655
+        y: 36
+        width: 10
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +374,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03e697977bf517cd0800000000000000
-      internalID: -2562161471375446480
+      spriteID: fb65128c214bd70f0800000000000000
+      internalID: -1117539139757975873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_7
+      name: base_attack_strip10_11
       rect:
         serializedVersion: 2
         x: 714
-        y: 32
-        width: 13
-        height: 12
+        y: 24
+        width: 49
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +396,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ca09e5ec1f966f00800000000000000
-      internalID: 1109749304658561732
+      spriteID: 60b9e8920a0a9b700800000000000000
+      internalID: 556652638709390086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_8
+      name: base_attack_strip10_12
       rect:
         serializedVersion: 2
-        x: 810
+        x: 811
         y: 24
         width: 13
-        height: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,64 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37e6ebbd5f2ff1bd0800000000000000
-      internalID: -2657138117357703565
+      spriteID: d12c6d6f8f41e1410800000000000000
+      internalID: 1449619189585592861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_death_strip13_9
+      name: base_attack_strip10_13
       rect:
         serializedVersion: 2
-        x: 905
-        y: 24
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae2d5ea99d9f48490800000000000000
-      internalID: -7744790746168438038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: base_death_strip13_10
-      rect:
-        serializedVersion: 2
-        x: 1002
-        y: 27
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7621fd947c691ffa0800000000000000
-      internalID: -5768663865002880409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: base_death_strip13_11
-      rect:
-        serializedVersion: 2
-        x: 1098
+        x: 906
         y: 24
         width: 13
-        height: 12
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,30 +440,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5750c7ed8d15fd8d0800000000000000
-      internalID: -2819444849823185547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: base_death_strip13_12
-      rect:
-        serializedVersion: 2
-        x: 1194
-        y: 24
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d69a5484f40407ed0800000000000000
-      internalID: -2418362290638837395
+      spriteID: 4f0c7eeebd96c2d40800000000000000
+      internalID: 5560936033222639860
       vertices: []
       indices: 
       edges: []
@@ -435,19 +460,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      base_death_strip13_0: -5107520152641879215
-      base_death_strip13_1: -3675567505963302410
-      base_death_strip13_10: -5768663865002880409
-      base_death_strip13_11: -2819444849823185547
-      base_death_strip13_12: -2418362290638837395
-      base_death_strip13_2: -8995870200806214168
-      base_death_strip13_3: -5837101090135288715
-      base_death_strip13_4: -1044972197882769428
-      base_death_strip13_5: -1113903011004895982
-      base_death_strip13_6: -2562161471375446480
-      base_death_strip13_7: 1109749304658561732
-      base_death_strip13_8: -2657138117357703565
-      base_death_strip13_9: -7744790746168438038
+      base_attack_strip10_0: 2037729144460287187
+      base_attack_strip10_1: -5921131596595627069
+      base_attack_strip10_10: -1117539139757975873
+      base_attack_strip10_11: 556652638709390086
+      base_attack_strip10_12: 1449619189585592861
+      base_attack_strip10_13: 5560936033222639860
+      base_attack_strip10_2: -4545706396013278618
+      base_attack_strip10_3: 3339717073172378955
+      base_attack_strip10_4: 8536789334769003231
+      base_attack_strip10_5: -7739973837865852884
+      base_attack_strip10_6: 6875997019405343397
+      base_attack_strip10_7: -2390471166699988579
+      base_attack_strip10_8: 1702722092792225050
+      base_attack_strip10_9: -4475158334380982692
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
