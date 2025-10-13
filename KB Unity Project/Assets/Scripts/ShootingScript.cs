@@ -6,12 +6,32 @@ public class ShootingScript : MonoBehaviour
     public Transform firePoint; // empty GameObject where projectiles spawn
     public float projectileSpeed = 10f;
 
+    private Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>(); // <-- Get Animator from Player
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) // Left click to shoot
         {
             Shoot();
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Attack();
+        }
+    }
+
+    void Attack()
+    {
+        // Play the animation
+        if (animator != null)
+        {
+            animator.SetTrigger("Attack");
+        }
+
     }
 
     void Shoot()

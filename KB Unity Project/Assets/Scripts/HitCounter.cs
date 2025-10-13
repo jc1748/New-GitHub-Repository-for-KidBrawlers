@@ -41,4 +41,22 @@ public class HitCounter : MonoBehaviour
             }
         }
     }
+
+    public void TakeDamage(int damage)
+    {
+        currentHits += damage;
+        Debug.Log("Enemy took damage! Current hits: " + currentHits);
+
+        if (healthBar != null)
+        {
+            float healthPercent = Mathf.Clamp01(1f - ((float)currentHits / maxHits));
+            healthBar.localScale = new Vector3(originalScale.x * healthPercent, originalScale.y, originalScale.z);
+        }
+
+        if (currentHits >= maxHits)
+        {
+            Destroy(gameObject);
+        }
+    }
+
 }

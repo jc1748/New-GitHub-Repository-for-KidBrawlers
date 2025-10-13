@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f; // Normal movement speed
-
+    
     public float rollDuration = 0.5f; // How long the roll lasts (i-frames)
     public float rollCooldown = 1f;   // Time between rolls
     public float rollForce = 4f; //How strong the dash is
@@ -11,6 +11,11 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 moveInput;
+
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public int attackDamage = 1;
+    public LayerMask enemyLayers;
 
     // Roll state
     private bool isRolling = false;
@@ -117,4 +122,26 @@ public class PlayerController : MonoBehaviour
     {
         return !isInvincible;
     }
+
+    public void DealDamage()
+    {
+        // Detect enemies in range
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("Hit " + enemy.name);
+            enemy.GetComponent<HitCounter>()?.SendMessage("TakeDamage", attackDamage, SendMessageOptions.DontRequireReceiver);
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
 }
+
