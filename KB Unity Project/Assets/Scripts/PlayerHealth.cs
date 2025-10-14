@@ -1,14 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
     //health set up
-    public float maxHealth = 5f;
-    private float currentHealth;
-
-    //health bar
-    public Transform healthBar;
-    private Vector3 originalScale;
+    public int maxHealth = 5;
+    private int currentHealth;
+    public Slider slider;
 
     //invincibility frames
     public float invincibilityDuration = 1.0f;
@@ -19,11 +19,8 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-
-        if (healthBar != null)
-        {
-            originalScale = healthBar.localScale;
-        }
+        slider.maxValue = maxHealth;
+        slider.value = currentHealth;
     }
 
     // Update is called once per frame
@@ -39,6 +36,11 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    private void Die()
+    {
+
+    }
+
     public void TakeDamage(int damage)
     {
         if (isInvincible)
@@ -47,19 +49,11 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
 
-        currentHealth -= damage;
-        Debug.Log($"Player took {damage} damage! Current health: {currentHealth}");
-
-        // Update the health bar
-        if (healthBar != null)
+        else
         {
-            float healthPercent = Mathf.Clamp01((float)currentHealth / maxHealth);
-            healthBar.localScale = new Vector3(originalScale.x * healthPercent, originalScale.y, originalScale.z);
+            currentHealth -= damage;
+            slider.value = currentHealth;
         }
-
-        // Trigger i-frames
-        isInvincible = true;
-        invincibilityTimer = invincibilityDuration;
 
         // Handle death
         if (currentHealth <= 0)
@@ -67,10 +61,9 @@ public class PlayerHealth : MonoBehaviour
             Die();
         }
 
-    }
-
-    private void Die()
-    {
+        // Trigger i-frames
+        isInvincible = true;
+        invincibilityTimer = invincibilityDuration;
 
     }
 
