@@ -19,8 +19,16 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        slider.maxValue = maxHealth;
-        slider.value = currentHealth;
+        if (slider != null) 
+        {
+            slider.maxValue = maxHealth;
+            slider.value = currentHealth;
+
+        }
+        else
+        {
+            Debug.LogWarning("PlayerHealth: Slider not assigned in Inspector!");
+        }
     }
 
     // Update is called once per frame
@@ -49,11 +57,13 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
 
-        else
+        currentHealth -= damage;
+
+        if(slider != null)
         {
-            currentHealth -= damage;
             slider.value = currentHealth;
         }
+
 
         // Handle death
         if (currentHealth <= 0)
