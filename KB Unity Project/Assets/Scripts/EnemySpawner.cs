@@ -18,14 +18,15 @@ public class EnemySpawner : MonoBehaviour
             playerInside = true;
             TrySpawnEnemy();
         }
+    }
 
-        void OnTriggerExit2D(Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            if (other.CompareTag("Player"))
-            {
                 playerInside= false;
-            }
         }
+    }
 
         void TrySpawnEnemy()
         {
@@ -44,5 +45,5 @@ public class EnemySpawner : MonoBehaviour
         }
 
      
-    }
-}
+ }
+
