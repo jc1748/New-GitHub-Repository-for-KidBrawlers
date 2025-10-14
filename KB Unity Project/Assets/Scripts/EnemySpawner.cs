@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject Prototype2;
+    public GameObject Shooter;
     public Transform spawnPoint;
     public int maxEnemies = 3;
     public float spawnDelay = 0.5f;
