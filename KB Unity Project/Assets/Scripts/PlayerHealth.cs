@@ -5,98 +5,73 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    //health set up
     public int maxHealth = 5;
     private int currentHealth;
-    public Slider slider;
+    
+    public Transform healthBar;
+    private Vector3 originalScale;
 
-    //invincibility frames
-    public float invincibilityDuration = 1.0f;
+    public float iFrameDuration = 1f;
     private bool isInvincible = false;
-    private float invincibilityTimer = 0f;
+    private float iFrameTimer;
 
-    private Animator animator;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
         currentHealth = maxHealth;
-        if (slider != null) 
+        if (healthBar != null)
         {
-            slider.maxValue = maxHealth;
-            slider.value = currentHealth;
-
+           originalScale = healthBar.localScale;
         }
-        else
-        {
-            Debug.LogWarning("PlayerHealth: Slider not assigned in Inspector!");
-        }
+            
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (isInvincible)
         {
-            invincibilityTimer -= Time.deltaTime;
-            if(invincibilityTimer <= 0f)
+            iFrameTimer -= Time.deltaTime;
+            if (iFrameTimer <= 0)
             {
                 isInvincible = false;
             }
         }
     }
 
-    private void Die()
-    {
-
-    }
-
     public void TakeDamage(int damage)
     {
-        if (isInvincible)
-        {
-            Debug.Log("Player is invincible — no damage taken");
-            return;
-        }
+        if (isInvincible) return;
 
         currentHealth -= damage;
-<<<<<<< HEAD
+        Debug.Log("Player took damage! Current health: " + currentHealth);
 
-        if(slider != null)
-        {
-            slider.value = currentHealth;
-=======
-        Debug.Log($"Player took {damage} damage! Current health: {currentHealth}");
-
-        // Update the health bar
-        if (healthBar != null)
-        {
-            float healthPercent = Mathf.Clamp01((float)currentHealth / maxHealth);
-            healthBar.localScale = new Vector3(originalScale.x * healthPercent, originalScale.y, originalScale.z);
->>>>>>> 876bd0ecfbfa10eec471d5f2a04dd5966fe4fb3d
-        }
-
-
-        // Handle death
         if (currentHealth <= 0)
         {
             Die();
         }
 
+        if (healthBar != null)
+        {
+            float healthPercent = Mathf.Clamp01((float)currentHealth / maxHealth);
+            healthBar.localScale = new Vector3(originalScale.x * healthPercent, originalScale.y, originalScale.z);
+        }
+
+        // Start invincibility frames
+        isInvincible = true;
+        iFrameTimer = iFrameDuration;
     }
 
     private void Die()
     {
-
+        Debug.Log("Player died!");
+        Destroy(gameObject);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(1);
         }
     }
-
-
 }
