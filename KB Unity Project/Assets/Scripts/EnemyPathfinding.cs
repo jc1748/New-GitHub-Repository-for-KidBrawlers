@@ -16,9 +16,9 @@ public class EnemyPathfinding : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    private void OnCollisionEnter2D(Collider2D collsion)
+    private void OnCollisionEnter2D(Collider2D collision)
     {
-        if (collsion.CompareTag("EnemySpawner")) return;
+        if (collision.CompareTag("EnemySpawner")) return;
     }
 
 

@@ -8,9 +8,11 @@ public class HitCounter : MonoBehaviour
     [Header("Health Bar")]
     public Transform healthBar;   // assign a child object (sprite) in Inspector
     private Vector3 originalScale;
+    private Animator animator;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         if (healthBar != null)
         {
             originalScale = healthBar.localScale;
@@ -22,23 +24,8 @@ public class HitCounter : MonoBehaviour
         if (collision.CompareTag("Projectile"))
         {
             Destroy(collision.gameObject); // remove projectile
-            currentHits++;
+            TakeDamage(1);
 
-            Debug.Log("Box hit! Current hits: " + currentHits);
-
-            // Update health bar
-            if (healthBar != null)
-            {
-                float healthPercent = Mathf.Clamp01(1f - ((float)currentHits / maxHits));
-                healthBar.localScale = new Vector3(originalScale.x * healthPercent,
-                                                   originalScale.y,
-                                                   originalScale.z);
-            }
-
-            if (currentHits >= maxHits)
-            {
-                Destroy(gameObject); // destroy box
-            }
         }
     }
 
@@ -46,6 +33,11 @@ public class HitCounter : MonoBehaviour
     {
         currentHits += damage;
         Debug.Log("Enemy took damage! Current hits: " + currentHits);
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Hurt");
+        }
 
         if (healthBar != null)
         {
@@ -55,8 +47,13 @@ public class HitCounter : MonoBehaviour
 
         if (currentHits >= maxHits)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+    private void Die()
+    {
+        Debug.Log("Enemy defeated!");
+        Destroy(gameObject);
     }
 
 }

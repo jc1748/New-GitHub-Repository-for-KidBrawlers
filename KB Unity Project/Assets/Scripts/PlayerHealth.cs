@@ -15,10 +15,13 @@ public class PlayerHealth : MonoBehaviour
     private bool isInvincible = false;
     private float invincibilityTimer = 0f;
 
+    private Animator animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currentHealth = maxHealth;
+        animator = GetComponent<Animator>();
 
         if (healthBar != null)
         {
@@ -50,6 +53,10 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
         Debug.Log($"Player took {damage} damage! Current health: {currentHealth}");
 
+        if (animator != null)
+        {
+            animator.SetTrigger("Hurt");
+        }
         // Update the health bar
         if (healthBar != null)
         {
@@ -71,7 +78,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
-
+        Debug.Log("Player died!");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
