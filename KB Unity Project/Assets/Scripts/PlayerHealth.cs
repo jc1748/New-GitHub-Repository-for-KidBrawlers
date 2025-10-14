@@ -15,6 +15,8 @@ public class PlayerHealth : MonoBehaviour
     private bool isInvincible = false;
     private float invincibilityTimer = 0f;
 
+    private Animator animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -58,10 +60,20 @@ public class PlayerHealth : MonoBehaviour
         }
 
         currentHealth -= damage;
+<<<<<<< HEAD
 
         if(slider != null)
         {
             slider.value = currentHealth;
+=======
+        Debug.Log($"Player took {damage} damage! Current health: {currentHealth}");
+
+        // Update the health bar
+        if (healthBar != null)
+        {
+            float healthPercent = Mathf.Clamp01((float)currentHealth / maxHealth);
+            healthBar.localScale = new Vector3(originalScale.x * healthPercent, originalScale.y, originalScale.z);
+>>>>>>> 876bd0ecfbfa10eec471d5f2a04dd5966fe4fb3d
         }
 
 
@@ -71,9 +83,10 @@ public class PlayerHealth : MonoBehaviour
             Die();
         }
 
-        // Trigger i-frames
-        isInvincible = true;
-        invincibilityTimer = invincibilityDuration;
+    }
+
+    private void Die()
+    {
 
     }
 
