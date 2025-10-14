@@ -23,4 +23,15 @@ public class Projectile : MonoBehaviour
     {
         transform.Translate(direction * speed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //ignore player
+        if (collision.CompareTag("Player")) return;
+
+        //ignore hitting spawner
+        if (collision.CompareTag("EnemySpawner")) return;
+
+        Destroy(gameObject);
+    }
 }
