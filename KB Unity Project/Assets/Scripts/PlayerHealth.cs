@@ -5,73 +5,75 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    //health set up
     public int maxHealth = 5;
     private int currentHealth;
-    
-    public Transform healthBar;
-    private Vector3 originalScale;
+    public Slider slider;
 
-    public float iFrameDuration = 1f;
+    //invincibility frames
+    public float invincibilityDuration = 1.0f;
     private bool isInvincible = false;
-    private float iFrameTimer;
+    private float invincibilityTimer = 0f;
 
-    private void Start()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
         currentHealth = maxHealth;
-        if (healthBar != null)
-        {
-           originalScale = healthBar.localScale;
-        }
-            
+        slider.maxValue = maxHealth;
+        slider.value = currentHealth;
     }
 
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
         if (isInvincible)
         {
-            iFrameTimer -= Time.deltaTime;
-            if (iFrameTimer <= 0)
+            invincibilityTimer -= Time.deltaTime;
+            if (invincibilityTimer <= 0f)
             {
                 isInvincible = false;
             }
         }
     }
 
+    private void Die()
+    {
+
+    }
+
     public void TakeDamage(int damage)
     {
-        if (isInvincible) return;
+        if (isInvincible)
+        {
+            Debug.Log("Player is invincible — no damage taken");
+            return;
+        }
 
-        currentHealth -= damage;
-        Debug.Log("Player took damage! Current health: " + currentHealth);
+        else
+        {
+            currentHealth -= damage;
+            slider.value = currentHealth;
+        }
 
+        // Handle death
         if (currentHealth <= 0)
         {
             Die();
         }
 
-        if (healthBar != null)
-        {
-            float healthPercent = Mathf.Clamp01((float)currentHealth / maxHealth);
-            healthBar.localScale = new Vector3(originalScale.x * healthPercent, originalScale.y, originalScale.z);
-        }
-
-        // Start invincibility frames
+        // Trigger i-frames
         isInvincible = true;
-        iFrameTimer = iFrameDuration;
+        invincibilityTimer = invincibilityDuration;
+
     }
 
-    private void Die()
-    {
-        Debug.Log("Player died!");
-        Destroy(gameObject);
-    }
-
-
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(1);
         }
     }
+
+
 }
