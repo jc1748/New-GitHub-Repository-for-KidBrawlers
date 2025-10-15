@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     //health set up
-    public int maxHealth = 5;
+    public int maxHealth = 8;
     private int currentHealth;
     public Slider slider;
 
