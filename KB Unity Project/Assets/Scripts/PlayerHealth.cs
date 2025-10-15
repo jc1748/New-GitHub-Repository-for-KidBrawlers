@@ -15,9 +15,13 @@ public class PlayerHealth : MonoBehaviour
     private bool isInvincible = false;
     private float iFrameTimer;
 
+    private Animator animator;
     private void Start()
     {
         currentHealth = maxHealth;
+
+        animator = GetComponent<Animator>();
+
         if (healthBar != null)
         {
            originalScale = healthBar.localScale;
@@ -44,6 +48,11 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
         Debug.Log("Player took damage! Current health: " + currentHealth);
 
+        if (animator != null)
+        {
+            animator.SetTrigger("Hurt"); // <-- Play the hurt animation
+        }
+
         if (currentHealth <= 0)
         {
             Die();
@@ -63,6 +72,7 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player died!");
+        FindFirstObjectByType<GameManager>().EndGame();
         Destroy(gameObject);
     }
 
