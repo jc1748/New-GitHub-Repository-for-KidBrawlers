@@ -6,9 +6,11 @@ public class GameManager : MonoBehaviour
 {
     public GameObject startCanvas;
     public GameObject endCanvas;
+    public GameObject winCanvas;
 
     private CanvasGroup startGroup;
     private CanvasGroup endGroup;
+    private CanvasGroup winGroup;
     private bool gameStarted = false;
 
     void Start()
@@ -17,12 +19,16 @@ public class GameManager : MonoBehaviour
             startGroup = startCanvas.GetComponent<CanvasGroup>();
         if (endCanvas != null)
             endGroup = endCanvas.GetComponent<CanvasGroup>();
+        if (winCanvas != null)
+            winGroup = winCanvas.GetComponent<CanvasGroup>();
 
         Time.timeScale = 0f;
         if (startCanvas != null)
             startCanvas.SetActive(true);
         if (endCanvas != null)
             endCanvas.SetActive(false);
+        if (winCanvas != null)
+            winCanvas.SetActive(false);
 
         // make start screen visible
         if (startGroup != null)
@@ -36,9 +42,12 @@ public class GameManager : MonoBehaviour
             StartCoroutine(FadeOutStartScreen());
         }
 
-        if (endCanvas != null && endCanvas.activeSelf && Input.GetKeyDown(KeyCode.R))
+        if ((endCanvas != null && endCanvas.activeSelf) || (winCanvas != null && winCanvas.activeSelf))
         {
-            RestartGame();
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                RestartGame();
+            }
         }
     }
 
@@ -68,24 +77,37 @@ public class GameManager : MonoBehaviour
         {
             endCanvas.SetActive(true);
             if (endGroup != null)
-                StartCoroutine(FadeInEndScreen());
+                StartCoroutine(FadeInCanvas(endGroup));
         }
     }
 
-    IEnumerator FadeInEndScreen()
+    public void WinGame()
+    {
+        Debug.Log("WIN: Showing WinCanvas, hiding StartCanvas");
+
+        Time.timeScale = 0f;
+        if (winCanvas != null)
+        {
+            winCanvas.SetActive(true);
+            if (winGroup != null)
+                StartCoroutine(FadeInCanvas(winGroup));
+        }
+        if (startCanvas != null)
+            startCanvas.SetActive(false);
+    }
+
+    IEnumerator FadeInCanvas(CanvasGroup canvasGroup)
     {
         float duration = 1.5f;
-        endGroup.alpha = 0f;
-
+        canvasGroup.alpha = 0f;
         float time = 0;
         while (time < duration)
         {
             time += Time.unscaledDeltaTime;
-            endGroup.alpha = Mathf.Lerp(0, 1, time / duration);
+            canvasGroup.alpha = Mathf.Lerp(0, 1, time / duration);
             yield return null;
         }
-
-        endGroup.alpha = 1f;
+        canvasGroup.alpha = 1f;
     }
 
     public void RestartGame()

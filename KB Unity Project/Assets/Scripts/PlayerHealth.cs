@@ -22,11 +22,12 @@ public class PlayerHealth : MonoBehaviour
 
         animator = GetComponent<Animator>();
 
-        if (healthBar != null)
+        if (slider != null)
         {
-           originalScale = healthBar.localScale;
+            slider.maxValue = maxHealth;
+            slider.value = currentHealth;
         }
-            
+
     }
 
     // Update is called once per frame
@@ -42,10 +43,6 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private void Die()
-    {
-
-    }
 
     public void TakeDamage(int damage)
     {
@@ -74,7 +71,7 @@ public class PlayerHealth : MonoBehaviour
         // Trigger i-frames
         isInvincible = true;
         invincibilityTimer = invincibilityDuration;
-
+    }
     private void Die()
     {
         Debug.Log("Player died!");

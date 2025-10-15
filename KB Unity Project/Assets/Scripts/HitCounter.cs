@@ -53,6 +53,14 @@ public class HitCounter : MonoBehaviour
     private void Die()
     {
         Debug.Log("Enemy defeated!");
+        if (CompareTag("Boss"))
+        {
+            GameManager gm = FindFirstObjectByType<GameManager>();
+            if (gm != null)
+            {
+                gm.WinGame();
+            }
+        }
         Destroy(gameObject);
     }
 
