@@ -34,6 +34,7 @@ public class EnemySpawner : MonoBehaviour
             if (enemiesSpawned < maxEnemies)
             {
                 Instantiate(Prototype2, spawnPoint.position, Quaternion.identity);
+ 
                 enemiesSpawned++;
 
                 //delay before spawning again

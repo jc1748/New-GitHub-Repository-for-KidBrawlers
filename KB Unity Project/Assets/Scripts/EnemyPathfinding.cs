@@ -59,5 +59,16 @@ public class EnemyPathfinding : MonoBehaviour
         }
     }
 
+    public void SetEnabled(bool enabled)
+    {
+        this.enabled = enabled;
+
+        //stop movement when disabled
+        if(!enabled && rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+    }
+
 
 }

@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (!gameStarted && Input.GetKeyDown(KeyCode.Space))
+        if (!gameStarted && Input.GetKeyDown(KeyCode.Q))
         {
             StartCoroutine(FadeOutStartScreen());
         }
